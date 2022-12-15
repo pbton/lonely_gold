@@ -1,0 +1,24 @@
+PIPELINE
+
+Pricing Optimization
+-List of products and their prices, along with other customer profile data.
+-Regression on customer data points that have significant effect on higher total revenue.
+-Payer score based on residual between predicted revenue and actual revenue.
+-WTP = confusion matrix of actual revenue compared to average (k-means); payer score.
+    positive k-means and underpayer -> price hike
+    positive k-means and overpayer -> no touch
+    negative k-means and underpayer -> x-sell
+    negative k-means and overpayer -> churn risk
+    
+    
+Autoregressive Models on Trading Economics data
+-https://github.com/Mind-the-Pineapple/Autoregressive-models
+
+
+Data Engineering
+-Build a Data Warehouse
+-Perform data modeling for a streaming platform
+-Build and organize data pipelines
+-Create a Data Lake
+-Perform data modeling through Cassandra
+-https://www.upgrad.com/blog/data-engineering-projects-ideas/
